@@ -30,10 +30,3 @@ const createRequest = (options = {}) => {
     options.callback(error);
   }
 };
-
-/*createRequest({
-  method: "POST",
-  url: "/user/login",
-  callback: () => console.log(2),
-  data: { d: 0, s: 3, gg: 999 },
-});*/
